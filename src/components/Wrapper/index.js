@@ -29,6 +29,13 @@ export default styled.div`
     }
   `}
 
+  ${props => props.feed && css`
+    width: 70%;
+    border-radius: 5px;
+    line-height: 25px;
+    float: left;
+  `}
+
   ${props => props.navigation && css`
     margin: 0 auto;
     padding-left: 40px;

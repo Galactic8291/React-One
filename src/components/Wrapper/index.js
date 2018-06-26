@@ -1,5 +1,6 @@
 // Wrapper Component
 import styled, { css } from 'styled-components'
+
 import img from '../../assets/background.jpg'
 
 export default styled.div`

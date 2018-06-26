@@ -4,7 +4,8 @@
   "description": "Reactified Version Of An Old Project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel utils/index.html",
+    "build": "parcel build utils/index.html"
   },
   "keywords": [
     "React",

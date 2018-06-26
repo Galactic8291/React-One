@@ -1,7 +1,11 @@
 // Home Page
 import React from 'react'
 
+import Wrapper from '../components/Wrapper'
+
 export default () => (
-  <div>Hello World!!!</div>
+  <Wrapper body>
+    <div>Hello World!!!</div>
+  </Wrapper>
 )
 

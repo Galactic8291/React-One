@@ -6,5 +6,10 @@ export default styled.article`
   margin-top: 2%;
   background-color: #fff;
   border-radius: 5px;
+
+  @media (min-width: 320px) and (max-width: 800px) {
+    margin-top: 3%;
+    margin-bottom: 2%;
+  }
 `
 

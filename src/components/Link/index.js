@@ -21,5 +21,15 @@ export const NavLink = styled(nav)`
     background-color: #cf5c3f;
     text-shadow: none;
   }
+
+  @media (min-width: 320px) and (max-width: 800px) {
+    margin: 0 auto;
+    text-align: center;
+
+    &:link, &:visited {
+      display: block;
+      padding: 10px 25px;
+    }
+  }
 `
 

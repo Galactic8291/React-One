@@ -1,0 +1,15 @@
+{
+  "name": "react-one",
+  "version": "1.0.0",
+  "description": "Reactified Version Of An Old Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "React",
+    "Styled"
+  ],
+  "author": "Robbie McClellan",
+  "license": "ISC"
+}

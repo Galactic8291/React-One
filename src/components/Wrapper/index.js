@@ -10,6 +10,7 @@ export default styled.div`
     background-image: url(${ img });
     color: #000305;
     font-family: sans-serif, "Lucida Sans Serif", "Times New Roman", Helvetica;
+    font-size: 87.5%;
     line-height: 1.5;
     text-align: left;
   `}
@@ -22,6 +23,7 @@ export default styled.div`
 
   ${props => props.navigation && css`
     margin: 0 auto;
+    padding-left: 40px;
   `}
 `
 

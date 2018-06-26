@@ -4,7 +4,7 @@
   "description": "Reactified Version Of An Old Project",
   "main": "index.js",
   "scripts": {
-    "start": "parcel utils/index.html",
+    "start": "parcel --no-cache utils/index.html",
     "build": "parcel build utils/index.html"
   },
   "keywords": [

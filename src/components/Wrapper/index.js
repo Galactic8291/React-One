@@ -34,6 +34,11 @@ export default styled.div`
     border-radius: 5px;
     line-height: 25px;
     float: left;
+
+    @media (min-width: 320px) and (max-width: 800px) {
+      width: 100%;
+      margin-top: 2%;
+    }
   `}
 
   ${props => props.navigation && css`

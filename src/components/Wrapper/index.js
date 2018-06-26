@@ -19,5 +19,9 @@ export default styled.div`
     margin: 0 auto;
     clear: both;
   `}
+
+  ${props => props.navigation && css`
+    margin: 0 auto;
+  `}
 `
 

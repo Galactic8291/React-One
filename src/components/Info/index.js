@@ -6,6 +6,10 @@ export default styled.p`
     font-size: 90%;
     font-style: italic;
     color: #999;
+
+    @media (min-width: 320px) and (max-width: 800px) {
+      display: none;
+    }
   `}
 `
 

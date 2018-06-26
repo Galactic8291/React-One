@@ -2,6 +2,20 @@
 import styled, { css } from 'styled-components'
 import { Link as anchor, NavLink as nav } from 'react-router-dom'
 
+export const Anchor = styled.a`
+  text-decoration: none;
+
+  &:link, &:visited {
+    color: #cf5c3f;
+  }
+
+  &:hover, &:active {
+    background-color: #cf5c3f;
+    color: #fff;
+    border-radius: 5px;
+  }
+`
+
 export const Link = styled(anchor)`
   text-decoration: none;
 `
